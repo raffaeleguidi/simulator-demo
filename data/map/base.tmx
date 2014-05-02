@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="area01_level_tiles" tilewidth="32" tileheight="32">
+  <image source="area01_level_tiles.png" width="640" height="241"/>
+ </tileset>
+ <tileset firstgid="141" name="metatiles32x32" tilewidth="32" tileheight="32">
+  <image source="metatiles32x32.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="solid"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/YCQT4zMHmxwDmhy59g5lzALETEg0ExJ/oN02ikcxPTAXEHPj4dMKywGxPB4+MViLypgVCbOg8ZExM4WYDY1vSiSm1F50TKy9ACzYCgI=
+  </data>
+ </layer>
+ <objectgroup name="Entities" width="30" height="15">
+  <object name="mainPlayer" x="5" y="318" width="32" height="64">
+   <properties>
+    <property name="image" value="gripe_run_right"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="collision" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxn04sGjYBSMgsEN8OVfQpgS/SMNAACVDhPV
+  </data>
+ </layer>
+</map>
