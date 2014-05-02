@@ -26,8 +26,8 @@ game.resources = [
 	 * {name: "example_sfx", type: "audio", src: "data/sfx/"}
 	 */
 	 
-	 	{name: "base", type: "tmx", src: "data/map/base.json"}
-		,{name: "area01_level_tiles", type: "image", src: "data/img/map/area01_level_tiles.png"}
+	 	{name: "base", type: "tmx", src: "data/map/casa.json"}
+		,{name: "casa_level_tiles", type: "image", src: "data/img/map/casa_level_tiles.png"}
 		,{name: "metatiles32x32",  type:"image", src: "data/img/map/metatiles32x32.png"}
 		// the main player spritesheet
 		,{name: "gripe_run_right", type:"image", src: "data/img/sprite/gripe_run_right.png"}
