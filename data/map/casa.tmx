@@ -33,7 +33,7 @@
  </tileset>
  <layer name="background" width="40" height="22">
   <data encoding="base64" compression="zlib">
-   eJztw7EJAAAIA7Cebb8XvMIhgTRJHx9VVVXvAvcHnLg=
+   eJztzqEBADAMw7CcnfN2WvtB4YiQiYGavCbpv14PHx8fHx8fHx8fHx8f33YAZBvmnw==
   </data>
  </layer>
  <objectgroup name="Entities" width="40" height="22">
